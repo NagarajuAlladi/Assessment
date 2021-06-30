@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+
+        body{
+           min-height: 100%;
+
+        }
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .outer{
+            background-color: #0C3953;
+            padding: 30px 60px;
+        }
+        h1{
+            text-align: center;
+            font-weight: 500;
+            margin-bottom: 20px;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .items_div{
+            background-color: aliceblue;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: auto;
+            margin: 0px 200px;
+        }
+
+        .items_top_div,.items_bottom_div{
+
+            display: flex;
+            padding: 20px;
+        }
+
+        .item{
+            display: flex;
+            flex-direction: column;
+            margin: 20px;
+            background-color:  white;
+            box-shadow: 5px 5px #ccc;
+        }
+
+        .cost{
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            font-size: 15px;
+        }
+        #cost1{
+            font-weight: 800;
+        }
+
+        #cost2{
+            text-decoration: line-through;
+            opacity: 0.4;
+        }
+        button{
+            width: 100%;
+            height: 40px;
+            text-align: center;
+            background-color: orange;
+            border: none;
+            outline: none;
+        }
+        .fa-shopping-cart{
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <h1><i class="fa fa-shopping-cart"></i>&nbsp;Shoping cart</h1>
+        <div class="items_div">
+
+            <div class="items_top_div">
+                <div class="item item1">
+                    <img src="https://source.unsplash.com/random/200x200" alt="item1">
+                    <div class="cost">
+                        <span id="cost1">$60</span>
+                        <span id="cost2">$115</span>
+                    </div>
+                    <button>Add to Cart</button>
+                </div>
+
+                <div class="item item2">
+                    <img src="https://source.unsplash.com/random/200x201" alt="item2">
+                    <div class="cost">
+                        <span id="cost1">$60</span>
+                        <span id="cost2">$115</span>
+                    </div>
+                    <button>Add to Cart</button>
+                </div>
+
+                <div class="item item3">
+                    <img src="https://source.unsplash.com/random/200x202" alt="item3">
+                    <div class="cost">
+                        <span id="cost1">$60</span>
+                        <span id="cost2">$115</span>
+                    </div>
+                    <button>Add to Cart</button>
+                </div>
+
+                <div class="item item4">
+                    <img src="https://source.unsplash.com/random/200x203" alt="item4">
+                    <div class="cost">
+                        <span id="cost1">$60</span>
+                        <span id="cost2">$115</span>
+                    </div>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            
+            <div class="items_bottom_div">
+                <div class="item item5">
+                    <img src="https://source.unsplash.com/random/200x204" alt="item5">
+                    <div class="cost">
+                        <span id="cost1">$60</span>
+                        <span id="cost2">$115</span>
+                    </div>
+                    <button>Add to Cart</button>
+                </div>
+
+                <div class="item item6">
+                    <img src="https://source.unsplash.com/random/200x205" alt="item6">
+                    <div class="cost">
+                        <span id="cost1">$60</span>
+                        <span id="cost2">$115</span>
+                    </div>
+                    <button>Add to Cart</button>
+                </div>
+
+                <div class="item item7">
+                    <img src="https://source.unsplash.com/random/200x206" alt="item7">
+                    <div class="cost">
+                        <span id="cost1">$60</span>
+                        <span id="cost2">$115</span>
+                    </div>
+                    <button>Add to Cart</button>
+                </div>
+
+                <div class="item item8">
+                    <img src="https://source.unsplash.com/random/200x207" alt="item8">
+                    <div class="cost">
+                        <span id="cost1">$60</span>
+                        <span id="cost2">$115</span>
+                    </div>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
